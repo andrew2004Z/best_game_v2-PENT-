@@ -391,7 +391,7 @@ class Window:
         p = 10000000
         times = {
             0: 'error',
-            1: 100,
+            1: 120,
             2: 500}
         while running:
             if level != 0 and time.time() - timing > times[level]:
